@@ -1,0 +1,14 @@
+h1{
+    position: relative;
+}
+
+
+h1::before{
+    content: "";
+    width: 5px;
+    height: 35px;
+    background-color:#F8D442;
+    position: absolute;
+    top: 10%;
+    right: 103%;
+}
